@@ -31,6 +31,4 @@ randomized_password="".join(password_list)
 
 print(f"Here is your password: {randomized_password}")
   
-  
-
-
+# instead of using random module to fetch random values from the lists, we can use random.choice() to do the same task.
